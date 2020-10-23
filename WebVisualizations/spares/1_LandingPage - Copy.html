@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Landing Page</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./1_LandingPage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Comparison Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./2_VizPage#1.html">Latitude vs. Temperature</a>
+                <a class="dropdown-item" href="./3_VizPage#2.html">Latitude vs. Humidity</a>
+                <a class="dropdown-item" href="./4_VizPage#3.html">Latitude vs. Cloudiness</a>
+                <a class="dropdown-item" href="./5_VizPage#4.html">Latitude vs. Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./6_ComparisonPage.html">Comparison Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./7_DataPage.html">Data Page</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <div class="col-md-12">
+            <h1>LATITUDE VS. WEATHER</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>A Study Looking At The Relationship Between Latitude And Several Weather Phenomenon</h2>
+                <p>An analysis was done looking at weather data for 500 + random cities to see if there were any discernable weather trends that varied with latitudes.</p>
+                <p>To accomplish this analysis, we generated a list of over 500 randomly selected cities and we pulled weather data for each city using the OpenWeatherMap API to assemble the dataset.</p>
+                <p>Once the dataset was assembled, we then utilized Matplotlib to make various plots of our weather attributes vs latitudes. For further analysis and to check for repeatability, we split our data into Nothern hemisphere data and southern hemisphere data to see if any observed trends were applicable in the data for each hemisphere.</p>
+                <p>The results of this analysis were compiled in this site. Along with the source data and our observed trends.</p>
+            </div>
+        </div>
+      </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-2 Emage plots">
+              <a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/2_VizPage%231.html">
+                <img src="Images/City_Latitude_vs_Temps.png" alt="Fugure1" height="125px">
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-2 Emage plots">
+              <a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/3_VizPage%232.html">
+                <img src="Images/City_Latitude_vs_Humidity.png" alt="Fugure1" height="125px">
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-2 Emage plots">
+              <a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/4_VizPage%233.html">
+                <img src="Images/City_Latitude_vs_Cloudiness.png" alt="Fugure1" height="125px">
+              </a>
+              </div>
+            <div class="col-sm-6 col-lg-2 Emage plots">
+              <a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/5_VizPage%234.html">
+                <img src="Images/City_Latitude_vs_Windspeed.png" alt="Fugure1" height="125px">
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-2 Emage plots">
+              <a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/6_ComparisonPage.html">
+                <img src="Images/City_Latitude_vs_Cloudiness_NorthernHemisphere.png" alt="Fugure1" height="125px">
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-2 Emage plots">
+              <a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/7_DataPage.html">
+                <img src="Images/summary_stats.png" alt="Fugure1" width="160px" height="125px">
+              </a>
+            </div>
+        </div>
+        <div class="row Description_text">
+            <div class="col-sm-6 col-md-2 Emage">
+                <p><a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/2_VizPage%231.html">Latitude vs. Temperature Visualization</a></p>
+            </div>
+            <div class="col-sm-6 col-md-2 Emage">
+                <p><a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/3_VizPage%232.html">Latitude vs. Humidity Visualization</a></p>
+            </div>
+            <div class="col-sm-6 col-md-2 Emage">
+                <p><a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/4_VizPage%233.html">Latitude vs. Cloudiness Visualization</a></p>
+              </div>
+            <div class="col-sm-6 col-md-2 Emage">
+                <p><a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/5_VizPage%234.html">Latitude vs. Wind speed Visualization</a></p>
+            </div>
+            <div class="col-sm-6 col-md-2 Emage">
+                <p><a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/6_ComparisonPage.html">Data Comparisons</a></p>
+            </div>
+            <div class="col-sm-6 col-md-2 Emage">
+                <p><a href="file:///C:/Users/Emeka/Documents/PROFESSIONAL/2020_BootCamp/HomeWork/GitHubRepo/Web-Design-Challenge/WebVisualizations/7_DataPage.html">Data</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

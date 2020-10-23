@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project Visualization Page 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="Page_header">
+          <h2>LATITUDE VS. WIND SPEED</h2>
+        </div>
+          <p>An analysis was done looking at humidity vs latitude data for 500 plus random cities at varying latitudes to see if there were any discernable trends</p>
+      </div>
+    </div>
+    <div class="row sub-header_top">
+      <div class="col-lg-6 header2">
+        <h3>CITY LATITUDES VS. WIND SPEED</h3>
+      </div>
+      <div class="col-md-6">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_Windspeed.png" alt="Latitude vs Windspeed" height="450px">
+      </div>
+      <div class="col-xl-6">
+        <p>Figure 1 shows the relationship between latitude and windspeed. We don't see any discernable trend in this dataset. Windspeed values are fairly random and show no patterns either close to the equator or close to the poles. When we break the data down into the Northern and Southern hemisphere data we begin to see a weak trend. For a closer look at this plot, click <a href="Images/City_Latitude_vs_Humidity.png">here</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>We took a deeper dive into the data by looking at the data in each hemisphere. A smiliarity in the data in the Northern and Southern hemisphere suggests that the trend is less likely to be random and more likely to be related to latitude.</p>
+      </div>
+    </div>
+    <div class="row sub-header_bottom">
+      <div class="col-lg-6">
+        <h3>NORTHERN HEMISPHERE</h3>
+      </div>
+      <div class="col-md-6">
+        <h3>SOUTHERN HEMISPHERE</h3>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_WindSpeed_NorthernHemisphere.png" alt="Latitude vs Windspeed Northern Hemisphere" height="450px">
+      </div>
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_WindSpeed_SouthernHemisphere.png" alt="Latitude vs Windspeed Southern Hemisphere" height="450px">
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-md-6">
+        <p>Figure 2 shows the relationship between latitude and windspeed in the Northern Hemisphere. While we see a weak correlation which suggests that windspeed tends to rise as we move closer to the North pole. The p-value, r-value and correlation coefficient for this dataset are listed below. For a closer look at this plot, click <a href="Images/City_Latitude_vs_Humidity_NorthernHemisphere.png">here</a></p>
+        <ul>
+          <li>
+            <p> The r-value is: 0.0045</p>
+          </li>
+          <li>
+            <p> The p-value is: 0.1919</p>
+          </li>
+          <li>
+            <p> Correlation coefficient (r) is 0.067</p>
+          </li>
+          <li>
+            <p> No of cities in the data: 381</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <p>Figure 3 shows the relationship between latitude and windspeed in the Southern Hemisphere. Again, we see a weak correlation that shows windspeed increasing as we move to the South pole and decreases as we move towards the equator. This is similar to what we see in the Northern hemisphere data. So in this case, the wind speeds drop (slightly) as you get closer to the equator. While we see this, the correlations are weak and is too weak to be considered a real trend. The p-value, r-value and correlation coefficient for this dataset are listed below. For a closer look at this plot, click <a href="Images/City_Latitude_vs_Humidity_SouthernHemisphere.png">here</a></p>
+        <ul>
+          <li>
+            <p> The r-value is: 0.0865</p>
+          </li>
+          <li>
+            <p> The p-value is: 7.7853e-05</p>
+          </li>
+          <li>
+            <p> Correlation coefficient (r) is -0.2941</p>
+          </li>
+          <li>
+            <p> No of cities in the data: 177</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

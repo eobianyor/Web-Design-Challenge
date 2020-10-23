@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Project Comparison Page</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="Page_header">
+                <h2>COMPARISONS</h2>
+              </div>
+                <p>Our analysis shows some weather attributes like temperature show a strong correlation to latitude while others like windspeed show a somewhat weaker correlation and others yet like humidity and cloudiness show no correlation at all to the latitude of the city.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 Emage">
+                <img src="Images/City_Latitude_vs_MaxTemp_NorthernHemisphere.png" alt="Fugure1" height="300px" width="372px">
+            </div>
+            <div class="col-lg-4 Emage">
+              <img src="Images/City_Latitude_vs_WindSpeed_NorthernHemisphere.png" alt="Fugure2" height="300px" width="372px">
+          </div>
+          <div class="col-lg-4 Emage">
+            <img src="Images/City_Latitude_vs_Humidity_NorthernHemisphere.png" alt="Fugure3" height="300px" width="368px">
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-lg-4 Emage">
+              <img src="Images/City_Latitude_vs_MaxTemp_SouthernHemisphere.png" alt="Fugure1" height="290px" width="370px">
+          </div>
+          <div class="col-lg-4 Emage">
+            <img src="Images/City_Latitude_vs_WindSpeed_SouthernHemisphere.png" alt="Fugure2" height="290px" width="370px">
+          </div>
+          <div class="col-lg-4 Emage">
+            <img src="Images/City_Latitude_vs_Cloudiness_NorthernHemisphere.png" alt="Fugure3" height="290px" width="370px">
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-md-4">
+            <h3>STRONG CORRELATION</h3>
+            <p>Max temperature was the weather attribute that showed the strongest correlation with latitude. This was somewhat expected. We have correlation values greater than 0.6 and less than -0.7.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>WEAK CORRELATION</h3>
+            <p>Weather attributes like wind speed showed a correlation - albeit a weak one - with latitude. This correlation was consistent and was observed in the Northern and Southern hemisphere datasets. Correlation values greater than 0.1 and less than -0.3.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>NO CORRELATION</h3>
+            <p>Weather attributes like cloudiness and humidity showed no discernable correlation with latitude in our dataset. We have correlation values less than 0.2.</p>
+          </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

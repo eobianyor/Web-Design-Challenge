@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project Visualization Page 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="Page_header">
+          <h2>LATITUDE VS. CLOUDINESS</h2>
+        </div>
+          <p>An analysis was done looking at cloudiness vs latitude data for 500 plus random cities at varying latitudes to see if there were any discernable trends</p>
+      </div>
+    </div>
+    <div class="row sub-header_top">
+      <div class="col-lg-6 header2">
+        <h3>CITY LATITUDES VS. CLOUDINESS</h3>
+      </div>
+      <div class="col-md-6">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_Cloudiness.png" alt="Latitude vs Cloudiness" height="450px">
+      </div>
+      <div class="col-xl-6">
+        <p>Figure 1 shows the relationship between latitude and cloudiness. We don't see any discernable trend in this dataset. Cloudiness values are fairly random and show no patterns either close to the equator or close to the poles. For a closer look at this plot, click <a href="Images/City_Latitude_vs_Cloudiness.png">here</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>We took a deeper dive into the data by looking at the data in each hemisphere. A smiliarity in the data in the Northern and Southern hemisphere suggests that the trend is less likely to be random and more likely to be related to latitude.</p>
+      </div>
+    </div>
+    <div class="row sub-header_bottom">
+      <div class="col-lg-6">
+        <h3>NORTHERN HEMISPHERE</h3>
+      </div>
+      <div class="col-md-6">
+        <h3>SOUTHERN HEMISPHERE</h3>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_Cloudiness_NorthernHemisphere.png" alt="Latitude vs Cloudiness Northern Hemisphere" height="450px">
+      </div>
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_Cloudiness_SouthernHemisphere.png" alt="Latitude vs Cloudiness Southern Hemisphere" height="450px">
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-md-6">
+        <p>Figure 2 shows the relationship between latitude and cloudiness in the Northern Hemisphere. The data is very dispersed and we don't see any discernable trend in this dataset. The p-value, r-value and correlation coefficient for this dataset are listed below. For a closer look at this plot, click <a href="Images/City_Latitude_vs_Cloudiness_NorthernHemisphere.png">here</a></p>
+        <ul>
+          <li>
+            <p> The r-value is: 0.046</p>
+          </li>
+          <li>
+            <p> The p-value is: 2.4281e-05</p>
+          </li>
+          <li>
+            <p> Correlation coefficient (r) is 0.2145</p>
+          </li>
+          <li>
+            <p> No of cities in the data: 381</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <p>Figure 3 shows the relationship between latitude and cloudiness in the Southern Hemisphere. The data is very dispersed and we don't see any discernable trend in this dataset. The p-value, r-value and correlation coefficient for this dataset are listed below. For a closer look at this plot, click <a href="Images/City_Latitude_vs_Cloudiness_SouthernHemisphere.png">here</a></p>
+        <ul>
+          <li>
+            <p> The r-value is: 0.0057</p>
+          </li>
+          <li>
+            <p> The p-value is: 0.3191</p>
+          </li>
+          <li>
+            <p> Correlation coefficient (r) is 0.0757</p>
+          </li>
+          <li>
+            <p> No of cities in the data: 177</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

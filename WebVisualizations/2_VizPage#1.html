@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project Visualization Page 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="Page_header">
+          <h2>LATITUDE VS. TEMPERATURE</h2>
+        </div>
+          <p>An analysis was done looking at temperature vs latitude data for 500 plus random cities at varying latitudes to see if there were any discernable trends</p>
+      </div>
+    </div>
+    <div class="row sub-header_top">
+      <div class="col-lg-6 header2">
+        <h3>CITY LATITUDES VS. MAX TEMPERATURES</h3>
+      </div>
+      <div class="col-md-6">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_Temps.png" alt="Latitude vs Temperature" height="450px">
+      </div>
+      <div class="col-xl-6">
+        <p>Figure 1 shows the relationship between latitude and temperature. We see a very discernable trend. Temperatures are highest closest to the equator and reduces as you move towards the poles. For a closer look at this plot, click <a href="Images/City_Latitude_vs_Temps.png">here</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>We took a deeper dive into the data by looking at the data in each hemisphere. A smiliarity in the data in the Northern and Southern hemisphere suggests that the trend is less likely to be random and more likely to be related to latitude.</p>
+      </div>
+    </div>
+    <div class="row sub-header_bottom">
+      <div class="col-lg-6">
+        <h3>NORTHERN HEMISPHERE</h3>
+      </div>
+      <div class="col-lg-6">
+        <h3>SOUTHERN HEMISPHERE</h3>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_MaxTemp_NorthernHemisphere.png" alt="Latitude vs Temperature Northern Hemisphere" height="450px">
+      </div>
+      <div class="col-lg-6 Emage">
+        <img src="Images/City_Latitude_vs_MaxTemp_SouthernHemisphere.png" alt="Latitude vs Temperature Southern Hemisphere" height="450px">
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-md-6">
+        <p>Figure 2 shows the relationship between latitude and temperature in the Northern Hemisphere. We see a very discernable trend. Temperatures are highest closest to the equator and reduces as you move towards the Northpole. For a closer look at this plot, click <a href="Images/City_Latitude_vs_MaxTemp_NorthernHemisphere.png">here</a></p>
+        <ul>
+          <li>
+            <p> The r-value is: 0.5947</p>
+          </li>
+          <li>
+            <p> The p-value is: 2.5492</p>
+          </li>
+          <li>
+            <p> Correlation coefficient (r) is -0.7711</p>
+          </li>
+          <li>
+            <p> No of cities in the data: 381</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <p>Figure 3 shows the relationship between latitude and temperature in the Northern Hemisphere. We see a very discernable trend. Temperatures are highest closest to the equator and reduces as you move towards the Southpole. For a closer look at this plot, click <a href="Images/City_Latitude_vs_MaxTemp_SouthernHemisphere.png">here</a></p>
+        <ul>
+          <li>
+            <p> The r-value is: 0.4215</p>
+          </li>
+          <li>
+            <p> The p-value is: 0.0</p>
+          </li>
+          <li>
+            <p> Correlation coefficient (r) is 0.6492</p>
+          </li>
+          <li>
+            <p> No of cities in the data: 177</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
