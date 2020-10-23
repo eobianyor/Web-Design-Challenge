@@ -108,3 +108,25 @@ h3{
      border: red;
      border-width: 5px;
  } */
+
+ .dataframe {
+    font-family: arial, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

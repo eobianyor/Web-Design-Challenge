@@ -1,0 +1,132 @@
+body{
+    background-color: #f1f1f1;
+    }
+
+.jumbotron{
+    background-color: #c8e1f1;
+    }
+
+/* .navbar-light{
+    padding: 10px;
+    background-color: #0C4570;
+    font-family: sans-serif;
+    } */
+
+.navbar-nav{
+    padding: 10px;
+    background-color: #0C4570;
+    font-family: sans-serif;
+    }
+
+.navbar li{
+    display: inline;
+    padding: 10px;
+    background-color: #e4e3e3;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 2px black; */
+    /* background: shadow;  */
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #136CB0;
+    }
+
+h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+    /* background-color: #1A93F0; */
+    }
+
+h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+    /* background-color: #63B4F2; */
+    }
+
+.sub-header_top{
+    color: black;
+    /* background-color: #1A93F0; */
+    text-decoration: none;
+}
+
+.sub-header_bottom{
+    color: white;
+    background-color: #0C4570;
+    text-decoration: none;
+}
+
+.Page_header{
+    color: white;
+    background-color: #0C4570;
+    text-decoration: none;
+}
+
+.header2{
+    color: white;
+    background-color:#0c4570;
+    text-decoration: none;
+}
+
+.Emage{
+    padding: 5px;
+    color: black;
+    background-color: #0C4570;
+    }
+
+.Description_text{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #0C4570;
+    /* background-color: #5191fd; */
+    }
+
+/* .plots{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    } */
+
+ /* .img{
+     border: red;
+     border-width: 5px;
+ } */
+
+ .dataframe {
+    font-family: arial, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
